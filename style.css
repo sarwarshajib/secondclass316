@@ -1,0 +1,153 @@
+/* start css code for Index file*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.login-section {
+    background-color: #1935bd85;
+    padding: 40px;
+}
+
+.login-section img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.login-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.form-control {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: maroon;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+
+.login-section p {
+    color: white;
+    opacity: 0.7;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login-section a {
+    color: bisque;
+    font-size: 18px;
+}
+
+.login-section a:hover {
+    color: #FF6100;
+}
+
+
+/* end css code for Index file*/
+
+
+/* start css code for Sign up file*/
+
+.signup-section {
+    background-color: #1935bd85;
+    padding: 40px;
+}
+
+.signup-section h1 {
+    text-align: center;
+    color: #47484B;
+}
+
+.signup-section p {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin: 5px 0px;
+}
+
+.signup-section hr {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.signup-section a {
+    text-decoration: none;
+}
+
+.check {
+    width: 18px;
+    height: 18px;
+    margin: 10px 0px 20px 10px;
+}
+
+
+/* end css code for signup file*/
+
+/* start css code for password file*/
+.password-section{
+   background-color: #1935bd85;
+    padding: 40px;
+}
+.password-section h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.password-section h4{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    opacity: 0.8;
+}
+.password-section p{
+    text-align: center;
+    margin: 5px 20px;
+    color: white;
+    opacity: 0.4;
+}
+
+
+/* end css code for password  file*/
